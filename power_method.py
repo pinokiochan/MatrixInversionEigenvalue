@@ -17,9 +17,9 @@ A_for_eigen = np.array([[2, -1, 0],
 
 v_initial = np.array([1, 0, 0], dtype=float)
 
-eigenvalue, eigenvector = power_method(A_for_eigen, v_initial)
+largeeigenvalue, eigenvector = power_method(A_for_eigen, v_initial)
 
 print("\nLargest Eigenvalue:")
-print(eigenvalue)
+print(largeeigenvalue)
 print("\nCorresponding Eigenvector:")
 print(eigenvector)
