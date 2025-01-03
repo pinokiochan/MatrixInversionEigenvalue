@@ -17,7 +17,7 @@ A = np.array([[50, 107, 36],
               [31, 66, 21]], dtype=float)
 
 A_inverse = inverse_using_lu(A)
-I = np.round(np.dot(A_inverse, A), decimals=6)
+I = np.dot(A_inverse, A)
 print(I)
 
 print("Matrix A:")
