@@ -17,9 +17,9 @@ B = np.array([[0.4, 2.4, -1.4],
               [0.14, 0.14, -0.14],
               [-0.85, -3.8, 2.8]], dtype=float)
 
-refined_inverse = iterative_method(A, B)
+accurated_inverse = iterative_method(A, B)
 
 print("\nInitial Approximate Inverse B:")
 print(B)
 print("\nRefined Inverse of A:")
-print(refined_inverse)
+print(accurated_inverse)
